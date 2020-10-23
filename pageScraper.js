@@ -72,7 +72,6 @@ const scraperObject = {
           return scrapedData;
       }
       let data = await scrapeCurrentPage();
-      console.log(data);
       return data;
   }
 }
